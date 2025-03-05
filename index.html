@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Shop</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+</head>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#hero"><img src="images/logo.png" alt="barber shop logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about"><i class="fa-solid fa-circle-info"></i>O nas</a></li>
+            <li><a href="#gallery"><i class="fa-solid fa-image"></i>Galeria</a></li>
+            <li><a href="#pricing"><i class="fa-solid fa-tags"></i>Cennik</a></li>
+            <li><a href="#reviews"><i class="fa-solid fa-comments"></i>Opinie</a></li>
+            <li><a href="booking.html"><i class="fa-solid fa-book"></i>Terminy</a></li>
+        </ul>
+        <div class="burger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Twój styl, nasza pasja.</h1>
+            <p>Profesjonalne strzyżenie i pielęgnacja brody w najlepszym wydaniu.</p>
+            <a href="booking.html" class="btn">Umów wizytę</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <img src="images/lokal.jpg" alt="Lokal barber shopa">
+            <div class="text">
+                <h2>Kim jesteśmy?</h2>
+                <p>Od 10 lat dbamy o styl i wygodę naszych klientów, łącząc tradycyjne techniki z nowoczesnym podejściem. 
+                    Tworzymy produkty, które łączą elegancję z funkcjonalnością, dbając o każdy detal i najwyższą jakość wykonania. 
+                    Nasza pasja do rzemiosła oraz indywidualne podejście do każdego zamówienia sprawiają, że zyskujemy zaufanie coraz większej liczby klientów. 
+                    Inspirujemy się klasyką, ale nie boimy się innowacji – dzięki temu nasze kolekcje są ponadczasowe, a jednocześnie odpowiadają na najnowsze trendy.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <h2>Nasza praca</h2>
+        <div class="gallery-content">
+            <img src="images/hr1.jpg" alt="Strzyzenie klienta">
+            <img src="images/barber.jpg" alt="Barber w czasie pracy">
+            <img src="images/hr3.jpeg" alt="Strzyzenie klienta">
+            
+        </div>
+    </section>
+
+    <section id="pricing" class="section">
+        <h2>Cennik</h2>
+        <div class="pricing-container">
+            <div class="pricing-card">
+                <i class="fas fa-cut"></i>
+                <h3>Strzyżenie</h3>
+                <p>Klasyczne cięcie z modelowaniem</p>
+                <span class="price">80 zł</span>
+            </div>
+            <div class="pricing-card">
+                <i class="fa-solid fa-hand-scissors"></i>
+                <h3>Strzyżenie + Broda</h3>
+                <p>Pełna stylizacja włosów i brody</p>
+                <span class="price">100 zł</span>
+            </div>
+            <div class="pricing-card">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <h3>Tradycyjne golenie</h3>
+                <p>Golenie brzytwą + pielęgnacja</p>
+                <span class="price">120 zł</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="section">
+        <h2>Opinie naszych klientów</h2>
+        <div class="reviews-container">
+            <div class="review active">
+                <p>"Najlepszy barber w mieście! Strzyżenie na najwyższym poziomie."</p>
+                <h4>Adam Kowalski</h4>
+            </div>
+            <div class="review">
+                <p>"Super atmosfera i profesjonalne podejście. Polecam!"</p>
+                <h4>Mateusz Nowak</h4>
+            </div>
+            <div class="review">
+                <p>"W końcu znalazłem idealnego barbera! Mega precyzja."</p>
+                <h4>Paweł Zieliński</h4>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button id="prev"><i class="fas fa-chevron-left"></i></button>
+            <button id="next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+
+    </section>
+
+    <section id="socials" class="section">
+        <div id="socials-1">
+        <h2>A tutaj jesteśmy !</h2>
+        <div id="map">
+            <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093705!2d144.95373531550492!3d-37.81627944202108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df1df9981%3A0xf0c7c6db1e995cf4!2sGym!5e0!3m2!1sen!2spl!4v1634978254124!5m2!1sen!2spl"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+        </div>
+        <div id="socials-2">
+        <h2>Znajdź nas w Social Media</h2>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" class="social-icon facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a> 
+            <a href="https://instagram.com" target="_blank" class="social-icon instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://tiktok.com" target="_blank" class="social-icon tiktok">
+                <i class="fab fa-tiktok"></i>
+            </a>   
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h2>BarberShop</h2>
+                <p>Najlepsze strzyżenie w mieście!</p>
+            </div>
+            <div class="footer-links">
+                <h3>Informacje</h3>
+                <ul>
+                    <li><a href="#">Polityka Prywatności</a></li>
+                    <li><a href="#">Regulamin</a></li>
+                    <li><a href="#">Cennik</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Kontakt</h3>
+                <p>Email: kontakt@barbershop.pl</p>
+                <p>Tel: +48 123 456 789</p>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2025 BarberShop. Wszelkie prawa zastrzeżone. Icons used by FontAwesome.</p>
+    </footer>
+    
+
+    <script src="main.js"></script>
+</body>
+
+</html>
