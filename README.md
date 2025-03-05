@@ -22,9 +22,7 @@ A modern, responsive, and fully customizable website template designed specifica
 Check out the live demo here:  
 👉 [Live Demo](https://github.com/username/barber-shop-website)  
 
-![preview1](https://github.com/user-attachments/assets/barber1.jpg)  
-![preview2](https://github.com/user-attachments/assets/barber2.jpg)  
-![preview3](https://github.com/user-attachments/assets/barber3.jpg)
+![barber1](https://github.com/user-attachments/assets/7a6d39d8-732e-4bf4-80b7-4186c2461c78)
 
 ---
 
