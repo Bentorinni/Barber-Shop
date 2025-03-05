@@ -23,8 +23,11 @@ Check out the live demo here:
 👉 [Live Demo](https://github.com/username/barber-shop-website)  
 
 ![barber1](https://github.com/user-attachments/assets/7a6d39d8-732e-4bf4-80b7-4186c2461c78)
+![barber2](https://github.com/user-attachments/assets/4decdb9e-3102-4f72-bf03-b8da389b4a80)
+![barber3](https://github.com/user-attachments/assets/c79b8af6-f909-47d1-917b-26647766e4bd)
+![barber5](https://github.com/user-attachments/assets/59c0ca62-5511-4f77-90a2-f892c1f8fd11)
+![barber4](https://github.com/user-attachments/assets/58a0f693-0306-4795-89f0-74f8e6a0fc17)
 
----
 
 ## 🛠️ Technologies Used
 
