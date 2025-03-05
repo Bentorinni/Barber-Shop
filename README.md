@@ -20,7 +20,7 @@ A modern, responsive, and fully customizable website template designed specifica
 ‼️ **Website is in Polish language** ‼️
 
 Check out the live demo here:  
-👉 [Live Demo](https://github.com/username/barber-shop-website)  
+👉 [Live Demo](https://bentorinni.github.io/Barber-Shop/)  
 
 ![barber1](https://github.com/user-attachments/assets/7a6d39d8-732e-4bf4-80b7-4186c2461c78)
 ![barber2](https://github.com/user-attachments/assets/4decdb9e-3102-4f72-bf03-b8da389b4a80)
