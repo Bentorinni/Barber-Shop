@@ -480,7 +480,7 @@ button:hover {
 
     .about-content img {
         height: 300px;
-        width: 350px;
+        width: auto;
     }
 
     .about-content {
@@ -494,6 +494,28 @@ button:hover {
         position: absolute;
         top: 70%;
         transform: translateY(-50%);
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .about-content img {
+        height: 270px;
+        width: 400px;
+    }
+
+    #about {
+        padding: 80px 5%;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .about-content img {
+        height: 270px;
+        width: 350px;
+    }
+
+    #about {
+        padding: 80px 5%;
     }
 }
 
