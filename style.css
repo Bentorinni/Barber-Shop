@@ -519,6 +519,17 @@ button:hover {
     }
 }
 
+@media screen and (max-width: 370px) {
+    .about-content img {
+        height: 250px;
+        width: 320px;
+    }
+
+    #about {
+        padding: 80px 5%;
+    }
+}
+
 
 /* FORM */
 
